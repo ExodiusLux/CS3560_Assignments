@@ -7,11 +7,11 @@ public class Person {
 		this.name = name;
 	}
 	
-	public String getName() {
+	public String getName() { //get person name
 		return name;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set person name
 		this.name = name;
 	}
 }

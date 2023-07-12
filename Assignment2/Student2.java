@@ -21,19 +21,19 @@ public class Student2 {
 		this.name = name;
 		this.transcript = transcript;
 	}
-	public String getName() {
+	public String getName() { //get student name
 		return name;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set student name
 		this.name = name;
 	}
 	
-	public void getTranscript() {
+	public void getTranscript() { //get transcript 
 		System.out.println(transcript);
 	}
 	
-	public void setTranscript(Transcript transcript) {
+	public void setTranscript(Transcript transcript) { //set transcript
 		this.transcript = transcript;
 	}
 	

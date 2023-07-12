@@ -1,7 +1,7 @@
 package Assignment2;
 
 public class Book {
-	private String name;
+	private String name; 
 	private String author;
 	private Course course;
 	
@@ -27,27 +27,27 @@ public class Book {
 		this.course = course;
 	}
 	
-	public String getName() {
+	public String getName() { //get name
 		return name;
 	}
 	
-	public String getAuthor() {
+	public String getAuthor() {//get author
 		return author;
 	}
 	
-	public Course getCourse() {
+	public Course getCourse() { //get course
 		return course;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set name
 		this.name = name;
 	}
 	
-	public void setAuthor(String author) {
+	public void setAuthor(String author) { //set author
 		this.author = author;
 	}
 	
-	public void setCourse(Course course) {
+	public void setCourse(Course course) { //set course
 		this.course = course;
 	}
 }

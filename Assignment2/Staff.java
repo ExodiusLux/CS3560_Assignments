@@ -8,11 +8,11 @@ public class Staff extends Employee{
 		this.role = role;
 	}
 
-	public int getRole() {
+	public int getRole() { //get role
 		return role;
 	}
 	
-	public void setRole(int role) {
+	public void setRole(int role) { //set role
 		this.role = role;
 	}
 	

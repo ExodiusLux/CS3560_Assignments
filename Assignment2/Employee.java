@@ -9,23 +9,23 @@ public class Employee {
 		this.hours = hours;
 	}
 	
-	public String getName() {
+	public String getName() {//get name
 		return name;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set name
 		this.name = name;
 	}
 	
-	public int getHours() {
+	public int getHours() { //get hours
 		return hours;
 	}
 	
-	public void setHours(int hours) {
+	public void setHours(int hours) {//set hours
 		this.hours = hours;
 	}
 	
-	public int calculateSalary() {
+	public int calculateSalary() { //hours * 20 for super class
 		return hours * 20;
 	}
 }

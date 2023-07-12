@@ -12,27 +12,27 @@ public class watch {
 		this.rating = rating;
 	}
 	
-	public Person getPerson() {
+	public Person getPerson() { //get person
 		return person;
 	}
 	
-	public void setPerson(Person person) {
+	public void setPerson(Person person) {//set person
 		this.person = person;
 	}
 	
-	public Movie getMovie() {
+	public Movie getMovie() {//get movie
 		return movie;
 	}
 	
-	public void setMovie(Movie movie) {
+	public void setMovie(Movie movie) {//set movie
 		this.movie = movie;
 	}
 	
-	public int getRating() {
+	public int getRating() {//get rating
 		return rating;
 	}
 	
-	public void setRating(int rating) {
+	public void setRating(int rating) {//set rating
 		this.rating = rating;
 	}
 	

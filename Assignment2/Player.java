@@ -19,19 +19,19 @@ public class Player {
 		this.expert = expert;
 	}
 	
-	public String getName() {
+	public String getName() { //get player name
 		return name;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set player name
 		this.name = name;
 	}
 	
-	public boolean getExpert() {
+	public boolean getExpert() { //get expert status
 		return expert;
 	}
 	
-	public void setExpert(boolean expert) {
+	public void setExpert(boolean expert) { //set expert status
 		this.expert = expert;
 	}
 	

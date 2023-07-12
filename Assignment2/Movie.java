@@ -9,19 +9,19 @@ public class Movie {
 		this.genre = genre;
 	}
 
-	public String getName() {
+	public String getName() {//get movie name
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) {//set movie name
 		this.name = name;
 	}
 
-	public String getGenre() {
+	public String getGenre() {//get movie genre
 		return genre;
 	}
 
-	public void setGenre(String genre) {
+	public void setGenre(String genre) {//set movie genre
 		this.genre = genre;
 	}
 	

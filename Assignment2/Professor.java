@@ -8,15 +8,16 @@ public class Professor extends Employee {
 		this.field = field;
 	}
 	
-	public String getField() {
+	public String getField() { //get field
 		return field;
 	}
 	
-	public void setField(String field) {
+	public void setField(String field) { //set field
 		this.field = field;
 	}
 	
-	public int calculateSalary() {
+	@Override
+	public int calculateSalary() { //override calculate Salary in super class for salary for Professor class
 		return getHours() * 30;
 	}
 }

@@ -24,24 +24,24 @@ public class Transcript {
 		this.grade = grade;
 	}
 	
-	public String getCourse() {
+	public String getCourse() { //get course
 		return course;
 	}
 	
-	public void setCourse(String course) {
+	public void setCourse(String course) { //set course
 		this.course = course;
 	}
 	
-	public double getGrade() {
+	public double getGrade() { //get grade
 		return grade;
 	}
 	
-	public void setGrade(double grade) {
+	public void setGrade(double grade) { //set grade
 		this.grade = grade;
 	}
 	
 	@Override
-	public String toString() {
+	public String toString() { // toString method override
 		return course + " " + grade;
 	}
 }

@@ -21,23 +21,23 @@ public class Team {
 		 this.player = player;
 	 }
 	 
-	 public int getCode() {
+	 public int getCode() { //get code
 		 return code;
 	 }
 	 
-	 public void setCode(int code) {
+	 public void setCode(int code) { //set code
 		 this.code = code;
 	 }
 	 
-	 public ArrayList<Player> getPlayer(){
+	 public ArrayList<Player> getPlayer(){ //get player list
 		 return player;
 	 }
 	 
-	 public void setPlayer(ArrayList<Player> player) {
+	 public void setPlayer(ArrayList<Player> player) { //set player list
 		 this.player = player;
 	 }
 	 
-	 public void addPlayer(Player player) {
+	 public void addPlayer(Player player) { //add player to list
 		 if(player == null) {
 			 this.player = new ArrayList<Player>();
 			 this.player.add(player);

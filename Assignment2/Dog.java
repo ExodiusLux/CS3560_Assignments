@@ -26,27 +26,26 @@ public class Dog {
 		}
 	}
 	
-	public String getBreed() {
+	public String getBreed() { //get dog breed
 		return breed;
 	}
 	
-	public void setBreed(String breed) {
+	public void setBreed(String breed) { //set dog breed
 		this.breed = breed;
 	}
 	
-	public String getName() {
+	public String getName() { //get dog name
 		return name;
 	}
 	
-	public void setName(String name) {
+	public void setName(String name) { //set dog name
 		this.name = name;
 	}
 	
-	public Paw[] getPaw() {
+	public Paw[] getPaw() { //get paw list
 		return paw;
 	}
-	
-	public void setPaw(Paw[] paw) {
+	public void setPaw(Paw[] paw) { //set Paw list
 		if(paw.length == 4) {
 			this.paw = paw;
 		}

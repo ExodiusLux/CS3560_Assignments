@@ -10,19 +10,19 @@ public class Worker {
 		this.hourlyRate = hourlyRate;
 	}
 
-	public String getName() {
+	public String getName() {//get worker name
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) {//set worker name
 		this.name = name;
 	}
 
-	public double getHourlyRate() {
+	public double getHourlyRate() {//get worker hourly rate
 		return hourlyRate;
 	}
 
-	public void setHourlyRate(double hourlyRate) {
+	public void setHourlyRate(double hourlyRate) {//set worker hourly rate
 		this.hourlyRate = hourlyRate;
 	}
 	
