@@ -3,7 +3,7 @@ package Assignment2;
 public class Dog {
 	private String breed;
 	private String name;
-	private Paw[] paw = new Paw[3];
+	private Paw[] paw;
 	Dog(){
 		breed = null;
 		name = null;
@@ -18,11 +18,11 @@ public class Dog {
 	Dog(String breed, String name, Paw[] paw){
 		this.breed = breed;
 		this.name = name;
-		if(paw.length <= 4) {
+		if(paw.length == 4) {
 			this.paw = paw;
 		}
 		else {
-			System.out.print("Too many paws unable to update list");
+			System.out.print("Too many/few paws unable to update list");
 		}
 	}
 	
@@ -47,11 +47,11 @@ public class Dog {
 	}
 	
 	public void setPaw(Paw[] paw) {
-		if(paw.length <= 4) {
+		if(paw.length == 4) {
 			this.paw = paw;
 		}
 		else {
-			System.out.println("Too many paws unable to update list");
+			System.out.println("Too many/few paws unable to update list");
 		}
 	}
 }
